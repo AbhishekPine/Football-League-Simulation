@@ -93,7 +93,8 @@ There is no theoretical limit to the number of teams, but try to limit the numbe
 
 To see the list of all valid team names, you can execute the following command:
 ```bash
-python simulator/scripts/all_teams.py
+python simulator/scripts/all_teams.c
+
 ```
 
 ## Sample Output
