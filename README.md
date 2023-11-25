@@ -1,6 +1,6 @@
 # Football-League-Simulator
 
-This Python project enables you to simulate various football leagues from around the world using FIFA 20 stats.
+This C project enables you to simulate various football leagues from around the world using FIFA 20 stats.
 The simulator runs week-by-week simulations of matches between all teams in the selected league, resulting in a final output that looks something like this:
 
 |    | Club          |   Matches Played |   Wins |   Draws |   Losses |   Points |   GF |   GA |   GD |
