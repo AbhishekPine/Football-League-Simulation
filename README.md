@@ -124,11 +124,17 @@ Top 5 Leagues are natively supported:
 * Ligue 1
 
 You can also create a custom league (like UCL) by picking different teams from all the available leagues.
-There is no theoretical limit to the number of teams, but try to limit the number of teams to 100 and ideally try to have an even number of teams. To make this work you will have to edit `constants/leagues.c` and add your league to it. Ensure that you use the correct team name. For example, 'Man Utd' will not work, you will have to use 'Manchester United' because that is how it is stored.
+There is no theoretical limit to the number of teams, but try to limit the number of teams to 100 and ideally try to have an even number of teams. To make this work you will have to edit `constants/leagues.py` and add your league to it. Ensure that you use the correct team name. For example, 'Man Utd' will not work, you will have to use 'Manchester United' because that is how it is stored.
 
+To see the list of all valid team names, you can execute the following command:
+```bash
+python simulator/scripts/all_teams.py
+```
 
 ## Sample Output
 
 Following is the output of a fully simulated league:
 
 ![Screenshot (2)](https://user-images.githubusercontent.com/55048030/84644685-1b96c700-af1d-11ea-81af-6ea056cbdea5.png)
+
+## Feedback and Support
