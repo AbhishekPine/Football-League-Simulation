@@ -13,41 +13,7 @@ The simulator runs week-by-week simulations of matches between all teams in the 
 |  6 | Torino        |               38 |     17 |       7 |       14 |       58 |   59 |   45 |   14 |
 ....
 
-## How to run the simulator
 
-To run this simulator locally, you need to perform the following steps:
-
-1. Clone this repository on your local machine:
-
-```bash
-git clone https://github.com/AllenThomasDev/Football-Simulator.git
-```
-
-2. Move inside the main project directory:
-
-```bash
-cd Football-Simulator
-```
-
-3. Setup and activate your virtual environment (optional):
-
-```bash
-# To create a virtual env:
-python -m venv .venv
-
-# For activation use one of the following commands based on your OS:
-source .venv/bin/activate   # On Mac / Linux
-.venv\Scripts\activate.bat  # In Windows CMD
-.venv\Scripts\Activate.ps1  # In Windows PowerShell
-```
-
-4. Install the required packages from the `requirements.txt` file:
-
-```bash
-pip install -r requirements.txt
-```
-
-5. Start the simulator by running: `python simulator`
 
 ## How does it work
 
