@@ -1,6 +1,6 @@
 # Football-League-Simulator
 
-This C project enables you to simulate various football leagues from around the world using FIFA 2023 stats.
+This Python project enables you to simulate various football leagues from around the world using FIFA 20 stats.
 The simulator runs week-by-week simulations of matches between all teams in the selected league, resulting in a final output that looks something like this:
 
 |    | Club          |   Matches Played |   Wins |   Draws |   Losses |   Points |   GF |   GA |   GD |
@@ -13,6 +13,41 @@ The simulator runs week-by-week simulations of matches between all teams in the 
 |  6 | Torino        |               38 |     17 |       7 |       14 |       58 |   59 |   45 |   14 |
 ....
 
+## How to run the simulator
+
+To run this simulator locally, you need to perform the following steps:
+
+1. Clone this repository on your local machine:
+
+```bash
+git clone https://github.com/AllenThomasDev/Football-Simulator.git
+```
+
+2. Move inside the main project directory:
+
+```bash
+cd Football-Simulator
+```
+
+3. Setup and activate your virtual environment (optional):
+
+```bash
+# To create a virtual env:
+python -m venv .venv
+
+# For activation use one of the following commands based on your OS:
+source .venv/bin/activate   # On Mac / Linux
+.venv\Scripts\activate.bat  # In Windows CMD
+.venv\Scripts\Activate.ps1  # In Windows PowerShell
+```
+
+4. Install the required packages from the `requirements.txt` file:
+
+```bash
+pip install -r requirements.txt
+```
+
+5. Start the simulator by running: `python simulator`
 
 ## How does it work
 
@@ -91,11 +126,9 @@ Top 5 Leagues are natively supported:
 You can also create a custom league (like UCL) by picking different teams from all the available leagues.
 There is no theoretical limit to the number of teams, but try to limit the number of teams to 100 and ideally try to have an even number of teams. To make this work you will have to edit `constants/leagues.c` and add your league to it. Ensure that you use the correct team name. For example, 'Man Utd' will not work, you will have to use 'Manchester United' because that is how it is stored.
 
-```
 
 ## Sample Output
 
 Following is the output of a fully simulated league:
 
 ![Screenshot (2)](https://user-images.githubusercontent.com/55048030/84644685-1b96c700-af1d-11ea-81af-6ea056cbdea5.png)
-
