@@ -98,3 +98,4 @@ There is no theoretical limit to the number of teams, but try to limit the numbe
 Following is the output of a fully simulated league:
 
 ![Screenshot (2)](https://user-images.githubusercontent.com/55048030/84644685-1b96c700-af1d-11ea-81af-6ea056cbdea5.png)
+
